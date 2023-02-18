@@ -6,7 +6,7 @@ public class rockPaperScissorsGame {
 
         Scanner scanner = new Scanner(System.in);
         String[] moves = {"rock", "paper", "scissors"};
-        System.out.println("This is Rock Paper and Scissors game!");
+        System.out.println("This is Rock Paper and Scissors game");
         System.out.println("Choose rock,paper or scissors:");
         String playerMove = scanner.nextLine();
         int computerWins = 0;
